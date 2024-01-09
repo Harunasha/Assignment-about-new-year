@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 .hero-image{
+
     position: relative;
     border-radius: 16px;
     width: 1320px;
@@ -12,8 +13,9 @@
     height: 600px;
     text-align: center;
     margin-left: 300px;
-    flex-shrink: 0;
+    max-width: 68%;
     background-image:url(Banner\ Image.png);
+   
 }
 .hero-content{
     
@@ -84,4 +86,64 @@ width: 802.9px;
 height: 500px;
 flex-shrink: 0;
 margin-left: 300px;
+}
+.hero-image2 {
+    position: relative;
+    border-radius: 16px;
+    width: 1320px;
+    padding: 10px;
+    height: 600px;
+    text-align: center;
+    margin-left: 300px;
+    flex-shrink: 0;
+    background-image:url(Vectorrr.png);
+}
+    
+    .text{
+color: #fff;
+font-size: 18px;
+font-style: normal;
+font-weight: 400; 
+text-align:center;
+justify-content: space-between;
+
+    }
+    .text1{
+        color: #FFF;
+text-align: left;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+line-height: 200px;
+
+    }
+    .head {
+        color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 900; 
+text-align: left;
+    }
+    .place{
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600; 
+        margin-top: 60px;
+
+    }
+    .rong{
+        color: #F00;
+    }
+.btn{
+    color: #FFF;
+    background: #F00;
+border: none;
+font-family: Inter;
+font-size: 20px;
+line-height: normal;
+border-radius: 10px;
+padding: 5px 15px;
 }
