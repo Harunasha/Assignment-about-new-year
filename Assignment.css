@@ -45,7 +45,8 @@
     max-width: 1440px;
     margin: 0 auto;
 }
-.section-heading { max-width: 1440px;
+.section-heading { 
+    max-width: 1440px;
     text-align: center;
     margin: 20px auto;
 
@@ -138,12 +139,27 @@ text-align: left;
         color: #F00;
     }
 .btn{
-    color: #FFF;
-    background: #F00;
+color: #FFF;
+background: #F00;
 border: none;
 font-family: Inter;
 font-size: 20px;
 line-height: normal;
 border-radius: 10px;
 padding: 5px 15px;
+}
+.btn1{
+    color:#FFF;
+    background: #F00;
+}
+.vanue{
+    text-align: center;
+    justify-content: center;
+   width: 1320px;
+   height: 300px;
+   border-radius: 20px;
+   background-color: bisque;
+   margin-left: 300px;
+
+
 }
